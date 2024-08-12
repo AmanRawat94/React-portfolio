@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.privacy_page_container {
+  background-color: #fff;
+  color: #000;
+}
+
+/*-------------------- content_container -----------------------*/
+
+.content_container {
+  margin: 0rem 2.5rem;
+}
+
+/*-------------------- privacy_policy_content -----------------------*/
+
+.privacy_policy_content {
+  margin: 1.5rem 0rem;
+}
+
+.privacy_policy_content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.privacy_policy_content p {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------- information_we_collect_container -----------------------*/
+
+.information_we_collect_container {
+  margin: 1.5rem 0rem;
+}
+
+.information_we_collect_container h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.information_we_collect_container p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+/*-------------------- how_we_use_your_information -----------------------*/
+
+.how_we_use_your_information {
+  margin: 1.5rem 0rem;
+}
+
+.how_we_use_your_information h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.how_we_use_your_information p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.how_we_use_your_information ul {
+  margin: 0.8rem 2rem;
+}
+
+.how_we_use_your_information ul li {
+  padding: 0.5rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------- data_security_content -----------------------*/
+
+.data_security_content {
+  margin: 1.5rem 0rem;
+}
+
+.data_security_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.data_security_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*-------------------- data_disclosure_content -----------------------*/
+
+.data_disclosure_content {
+  margin: 1.5rem 0rem;
+}
+.data_disclosure_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.data_disclosure_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+/*-------------------- cookies_content -----------------------*/
+
+.cookies_content {
+  margin: 1.5rem 0rem;
+}
+
+.cookies_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.cookies_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*-------------------- google_compliance_content -----------------------*/
+
+.google_compliance_content {
+  margin: 1.5rem 0rem;
+}
+
+.google_compliance_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.google_compliance_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.google_compliance_content ul {
+  margin: 0.8rem 2rem;
+}
+
+.google_compliance_content ul li {
+  padding: 0.5rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------- your_rights_content -----------------------*/
+
+.your_rights_content {
+  margin: 1.5rem 0rem;
+}
+
+.your_rights_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+
+.your_rights_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*-------------------- Updates_to_this_Policy_content -----------------------*/
+
+.Updates_to_this_Policy_content {
+  margin: 1.5rem 0rem;
+}
+.Updates_to_this_Policy_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+.Updates_to_this_Policy_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*-------------------- contact_us_content -----------------------*/
+
+.contact_us_content {
+  margin: 1.5rem 0rem;
+}
+.contact_us_content h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0;
+}
+.contact_us_content p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*-------------------- last_para -----------------------*/
+
+.last_para {
+  margin: 1.5rem 0rem;
+}
+.last_para p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}

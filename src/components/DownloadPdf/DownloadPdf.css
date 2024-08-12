@@ -1,0 +1,12 @@
+.download-btn {
+  border: 1.5px solid #fff;
+  border-radius: 0.4rem;
+  margin: 0.9rem 0rem;
+  background: rgb(71, 133, 92);
+  padding: 0.5rem 0.9rem;
+  text-align: center;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
