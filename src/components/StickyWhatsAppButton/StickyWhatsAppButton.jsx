@@ -5,8 +5,8 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const StickyWhatsAppButton = () => {
   const handleClick = () => {
-    const phoneNumber = "+91 8791273578";
-    const message = "Hello, I would like to hire you for a project!";
+    const phoneNumber = "+91 9690631673";
+    const message = "Hi";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;

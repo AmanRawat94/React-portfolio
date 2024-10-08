@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      © 2024, AP TECH ENTERPRISE. All rights reserved.
+      © 2024, Aman Rawat - Portfolio. All rights reserved.
     </footer>
   );
 };

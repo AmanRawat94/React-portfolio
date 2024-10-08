@@ -12,6 +12,7 @@ export const SKILLS = [
       { skill: "CSS3 (Sass/Scss)", percentage: "90%" },
       { skill: "JavaScript", percentage: "75%" },
       { skill: "React.js", percentage: "80%" },
+      { skill: "Angular.js", percentage: "70%" },
     ],
   },
   {
@@ -20,46 +21,63 @@ export const SKILLS = [
     skills: [
       { skill: "Node.js", percentage: "85%" },
       { skill: "Express.js", percentage: "80%" },
+      { skill: "Spring", percentage: "70%" },
+      { skill: "Spring Boot", percentage: "75%" },
       { skill: "Mongoose", percentage: "75%" },
-      { skill: "Firebase", percentage: "70%" },
+    ],
+  },
+  {
+    title: "Full Stack",
+    icon: `${backend_icon}`,
+    skills: [{ skill: "Next.js", percentage: "75%" }],
+  },
+  {
+    title: "Database",
+    icon: `${backend_icon}`,
+    skills: [
+      { skill: "MySQL", percentage: "80%" },
+      { skill: "MS SQL Server", percentage: "75%" },
+      { skill: "Postgresql", percentage: "60%" },
+      { skill: "Mongo DB", percentage: "75%" },
+      { skill: "Firebase", percentage: "60%" },
     ],
   },
   {
     title: "Tools",
     icon: `${tools_icon}`,
     skills: [
-      { skill: "Visual Studio COde", percentage: "80%" },
-      { skill: "Github", percentage: "90%" },
+      { skill: "Visual Studio Code", percentage: "80%" },
+      { skill: "Eclipse IDE", percentage: "70%" },
+      { skill: "IntelliJ IDEA", percentage: "70%" },
+      { skill: "Github", percentage: "80%" },
+      { skill: "Git", percentage: "80%" },
     ],
   },
   {
-    title: "Soft Skills",
+    title: "Technical Skills",
     icon: `${soft_skill_icon}`,
     skills: [
-      { skill: "Problem Solving", percentage: "80%" },
-      { skill: "Collaboration", percentage: "90%" },
-      { skill: "Attention to Details", percentage: "75%" },
+      { skill: "Java", percentage: "80%" },
+      { skill: "JavaScript", percentage: "75%" },
+      { skill: "C#", percentage: "75%" },
+      { skill: "Python", percentage: "70%" },
     ],
   },
 ];
 
 export const WORK_EXPERIENCE = [
   {
-    title: "Frontend Developer",
-    date: "November 2023 - Present",
+    title: "Freelance Web Developer",
+    date: "May 2024 - June 2024",
     responsibilites: [
       "User Experience Enhancement",
       "Cross-Browser Compatibility",
     ],
   },
+
   {
-    title: "Backend Developer",
-    date: "December 2023 - Present",
-    responsibilites: ["Performance Optimization", "Server-Side Development"],
-  },
-  {
-    title: "Database Engineer",
-    date: "January 2024 - Present",
-    responsibilites: ["Database Development:", "Security and Compliance"],
+    title: "Database Administrator",
+    date: "June 2024 - Present",
+    responsibilites: ["Database Management", "Security and Compliance"],
   },
 ];

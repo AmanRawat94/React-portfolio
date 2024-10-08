@@ -3,9 +3,11 @@ import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
 import whatsapp_logo from "../../img/whatsapp_logo.png";
-import skype_logo from "../../img/skype_logo.png";
+import email_logo from "../../img/email_logo.png";
 
 const ContactMe = () => {
+  const phoneNumber = "+91 9690631673";
+  const message = "Hi";
   return (
     <section className="contact-container">
       <h5>Contact Me</h5>
@@ -13,12 +15,15 @@ const ContactMe = () => {
       <div className="contact-content">
         <div style={{ flex: 1 }}>
           <ContactInfoCard
-            url={`https://join.skype.com/invite/wpd8wRRxVUkB`}
-            iconurl={skype_logo}
-            text="Skype"
+            url={`mailto:ar981089@gmail.com`}
+            iconurl={email_logo}
+            text="Email"
           />
+
           <ContactInfoCard
-            url={`https://wa.me/919258902271`}
+            url={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+              message
+            )}`}
             iconurl={whatsapp_logo}
             text="Whatsapp"
           />
